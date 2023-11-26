@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.catalog-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  label{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  button{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filme-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagem-filme {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .filme-info {
+    flex-grow: 1;
+  }
+
+  .categoria{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
